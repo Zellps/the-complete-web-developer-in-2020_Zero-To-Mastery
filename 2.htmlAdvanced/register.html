@@ -9,30 +9,30 @@
 
 <body>
     <h1>Registre-se</h1>
-    <form action="">
+    <form method="GET"> <!-- comentários -->
         Seu nome:<input type="text" name="primeiroNome">
         <br>
         Sobrenome:<input type="text" name="sobrenome">
         <br>
-        Nascimento:<input type="date" name="data"  name="nascimento">
+        Nascimento:<input type="date" name="nascimento">
         <br>
         <br>
         Sexo: <br>
-        <input type="radio" name="sexo">Masculino <br>
-        <input type="radio" name="sexo">Feminino <br>
-        <input type="radio" name="sexo">Indefinido <br>
+        <input type="radio" name="sexo" value="masc">Masculino <br>
+        <input type="radio" name="sexo" value="fem">Feminino <br>
+        <input type="radio" name="sexo" value="lgbtqsyz">Indefinido <br>
         <br>
         Pets: <br>
-        <input type="checkbox">Gatíneos <br>
-        <input type="checkbox">Catioros <br>
+        <input type="checkbox" name="cats">Gatíneos <br>
+        <input type="checkbox" name="dogs">Catioros <br>
         <br>
         Carros: <br>
-        <select>
-            <option value="volvo">Volvo</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-            <option value="toyota">Toyota</option>
-            <option value="bmw">Bmw</option>
+        <select name="carrros">
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="mercedes" name="mercedes">Mercedes</option>
+            <option value="audi" name="audi">Audi</option>
+            <option value="toyota" name="toyota">Toyota</option>
+            <option value="bmw" name="bmw">Bmw</option>
 
         </select>
         <br>
@@ -53,3 +53,4 @@
 </body>
 
 </html>
+
