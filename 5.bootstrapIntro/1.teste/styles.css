@@ -1,0 +1,17 @@
+.btn-perigo {
+    background-color: orange;
+  
+}
+
+.btn-perigo:hover {
+    background-color: rgb(221, 109, 105);
+}
+
+.col {
+    background-color: rgb(255, 129, 255);
+    border: solid;
+}
+
+.row {
+    text-align: center;
+}
