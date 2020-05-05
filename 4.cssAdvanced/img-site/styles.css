@@ -12,9 +12,11 @@ h1  {
     font-family: fantasy;
     font-size: 3rem;
     border-bottom: 2px dotted red;
-
+width: 400px;
+text-align: center;
 }
 
+/* código pra 5 dots grantes*/
 hr {
   border: dotted #fa0505 6px;
   border-bottom: none;
@@ -28,8 +30,10 @@ color: black;
 }
 
 .footer {
-  background-color: #e6bcbc;
+  background-color: #e8e4e4;
   text-decoration-color: black;
   padding: 50px 0 50px;
   font-size: 0.75rem;
+
+    justify-content: ;
 }
