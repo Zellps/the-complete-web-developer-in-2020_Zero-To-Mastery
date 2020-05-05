@@ -1,11 +1,9 @@
 body {
-    background-image: url(https://icatcare.org/app/uploads/2018/09/white-cat-1.png);
+    background-image: url(;
     background-size: cover ;
 }
 
-h1 {
 
-}
 
 h2 {
     color: darkred;
@@ -21,9 +19,26 @@ p {
     font-style: italic;
     font-weight: 800;
     font-size: 150%;
-    font-family: ;
+    font-family: 'Dancing Script', cursive;
 }
 
 li {    list-style: none;
     display: inline-block;
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+}
+
+.boxmodel {
+    border: 5px solid darkred; 
+    display: inline-block;
+    padding: 5px 10px 5px 20px;
+    margin: 20px;
+    width: 33px;
+    height: 33px;
 }
