@@ -19,7 +19,8 @@ console.log(array)
 
 // 4. Remove "Apples" from the array.
 
-array.shift()
+// array.shift()  - shift retira o primeiro item da lista
+array.splice(0, 1)
 console.log(array)
 
 // 5. Sort the array in reverse order. (Not alphabetical, but reverse
