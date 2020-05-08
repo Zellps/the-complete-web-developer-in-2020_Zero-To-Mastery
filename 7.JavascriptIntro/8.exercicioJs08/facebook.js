@@ -3,7 +3,7 @@
 // user
 
 var database = [{
-    nome: "Zell",
+    username: "zell",
     password: "xucrute"
 }]
 
@@ -27,10 +27,12 @@ var newsFeed = [{
 var userNamePrompt = prompt("Qual o seu username?")
 var passwordPrompt = prompt("Qual a sua senha?")
 
-function signIn(use, pass) {
-    if ( user == database[0].username && pass == database[0].password) {
+function signIn(user, pass) {
+    if ( user === database[0].username && pass === database[0].password) {
         console.log(newsFeed)
     } else {
         alert ("Login ou senha incorretos")
     }
 }
+
+signIn(userNamePrompt,passwordPrompt)
